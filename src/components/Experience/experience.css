@@ -40,3 +40,8 @@
     margin-top: 6px;
     color: var(--color-primary);
 }
+.experience_ratings{
+    color: var(--color-light);
+    margin-left: auto;
+    margin-top: auto;
+}

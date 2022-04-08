@@ -7,7 +7,7 @@ const data = [
   {
     id: 1,
     name: "Angana Dawn",
-    designation:"R&D Engineer",
+    designation: "R&D Engineer",
     comapny: "NOKIA",
     image: AD,
     review:
@@ -16,11 +16,20 @@ const data = [
   {
     id: 2,
     name: "Abhay Kumar Dhar",
-    designation:"Engineer",
-    comapny: "L&T Technology Services",
+    designation: "Engineer",
+    comapny: "LTTS",
     image: AKD,
     review:
-      "",
+      "Me and Saubhagya started our career together. Saubhagya is one of the excellent person whom you can trust with your work. He knows how to add some creativity and make even a dull web page a astounding one.",
+  },
+  {
+    id: 3,
+    name: "Sachin Kumar",
+    designation: "Engineer",
+    comapny: "LTTS",
+    image: AKD,
+    review:
+      "Me and Saubhagya started our career together. Saubhagya is one of the excellent person whom you can trust with your work. He knows how to add some creativity and make even a dull web page a astounding one.",
   },
 ];
 
@@ -33,12 +42,16 @@ const Testimonial = () => {
         {data.map((e) => {
           return (
             <article className="testimonial">
-              <div className="uppercard">
+              <div className="avatar_name">
                 <div className="testimonials_avatar">
                   <img src={e.image} alt="" />
                 </div>
+                <div className="testimonials_name_designation ">
+                  <h4 className="testimonial_name">{e.name}</h4>
+                  <small className="text-light">{e.designation} at {e.comapny}</small>
+                </div>
               </div>
-              <h5 className="testimonial_name">{e.name}</h5>
+
               <small className="testimonials_review">{e.review}</small>
             </article>
           );

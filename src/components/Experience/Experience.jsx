@@ -14,31 +14,31 @@ const Experience = () => {
           <div className="experience_content">
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icons" />
-              
-                <h4>HTML</h4>
-                <small className="text-light" ><StarRatings stars={5}/></small>
-              
+              <h4>HTML</h4>
+              <small className="experience_ratings">
+                <StarRatings stars={5} />
+              </small>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icons" />
-              
-                <h4>CSS</h4>
-                <small className="text-light"><StarRatings stars={3}/></small>
-              
+              <h4>CSS</h4>
+              <small className="experience_ratings">
+                <StarRatings stars={3} />
+              </small>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icons" />
-              
-                <h4>React</h4>
-                <small className="text-light"><StarRatings stars={4}/></small>
-              
+              <h4>React</h4>
+              <small className="experience_ratings">
+                <StarRatings stars={4} />
+              </small>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icons" />
-              
-                <h4>Redux</h4>
-                <small className="text-light"><StarRatings stars={2}/></small>
-              
+              <h4>Redux</h4>
+              <small className="experience_ratings">
+                <StarRatings stars={2} />
+              </small>
             </article>
           </div>
         </div>
@@ -47,31 +47,31 @@ const Experience = () => {
           <div className="experience_content">
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icons" />
-              
-                <h4>Node JS</h4>
-                <small className="text-light"><StarRatings stars={1}/></small>
-              
+              <h4>Node JS</h4>
+              <small className="experience_ratings">
+                <StarRatings stars={1} />
+              </small>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icons" />
-              
-                <h4>Javascript</h4>
-                <small className="text-light"><StarRatings stars={4}/></small>
-              
+              <h4>Javascript</h4>
+              <small className="experience_ratings">
+                <StarRatings stars={4} />
+              </small>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icons" />
-              
-                <h4>C++</h4>
-                <small className="text-light"><StarRatings stars={3}/></small>
-              
+              <h4>C++</h4>
+              <small className="experience_ratings">
+                <StarRatings stars={3} />
+              </small>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icons" />
-              
-                <h4>C#</h4>
-                <small className="text-light"><StarRatings stars={3}/></small>
-              
+              <h4>C#</h4>
+              <small className="experience_ratings">
+                <StarRatings stars={3} />
+              </small>
             </article>
           </div>
         </div>
